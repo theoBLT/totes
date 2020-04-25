@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/theoBLT/totes/issues"
   },
-  "homepage": "https://github.com/theoBLT/totes#readme"
+  "homepage": "https://github.com/theoBLT/totes#readme",
+  "dependencies": {
+    "stripe": "^8.47.0"
+  }
 }
