@@ -1,23 +1,19 @@
 {
   "name": "netlify-functions",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "functions": "cd functions && npm i && cd ..",
+    "dev": "netlify dev"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theoBLT/totes.git"
-  },
-  "keywords": [],
-  "author": "",
+  }
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/theoBLT/totes/issues"
   },
   "homepage": "https://github.com/theoBLT/totes#readme",
-  "dependencies": {
-    "stripe": "^8.47.0"
-  }
+  "dependencies": {}
 }
