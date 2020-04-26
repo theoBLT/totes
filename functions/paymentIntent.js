@@ -11,12 +11,13 @@ exports.handler = function(event, context, callback) {
         },
         function(err, paymentIntent) {
           // asynchronously called
-          console.log(JSON.stringify(paymentIntent))
+          console.log(JSON.stringify(paymentIntent.id))
+          console.log(err)
         }
       );
 
     callback(null, {
     statusCode: 200,
-    body: `Nothing to see here`,
+    body: JSON.stringify(paymentIntent.id),
     });
 }
