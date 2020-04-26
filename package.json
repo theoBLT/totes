@@ -3,17 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "functions": "cd functions && npm i && cd ..",
-    "dev": "netlify dev"
+    "functions": "cd functions && npm i && cd .."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/theoBLT/totes.git"
-  }
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/theoBLT/totes/issues"
-  },
-  "homepage": "https://github.com/theoBLT/totes#readme",
   "dependencies": {}
 }
